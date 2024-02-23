@@ -110,6 +110,10 @@ img{
     padding: 20px;
 }
 
+.small-logo{
+    display: none;
+}
+
 .sidebar-element{
     margin-bottom: 10px;
 }
@@ -327,5 +331,22 @@ main{
 @media screen and (max-width: 768px){
     .song-card{
         width: calc(100% / 1 - 30px);
+    }
+
+    .sidebar-element a,
+    .sidebar-playlist,
+    .bottom-sidebar a,
+    .big-logo,
+    .sidebar-hr{
+        display: none;
+    }
+
+    .small-logo{
+        display: block;
+        width: 30%;
+    }
+
+    #sidebar{
+       width: 200px;
     }
 }
