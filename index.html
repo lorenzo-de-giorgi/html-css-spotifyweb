@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +23,42 @@
                     <a class="header-btn" href="#">effettua l'upgrade</a>
                 </div>
             </div>
-            <div id="sidebar"></div>
+            <!-- left-screen sidebar section -->
+            <div id="sidebar">
+                <div id="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <ul>
+                    <li class="sidebar-element"><img class="logo-sidebar" src="img/home.svg" alt="logo-home"><a class="sidebar-text" href="#">Home</a></li>
+                    <li class="sidebar-element"><img class="logo-sidebar" src="img/search.svg" alt="search-logo"><a class="sidebar-text" href="">Cerca</a></li>
+                    <li class="sidebar-element"><img src="img/libreria.svg" alt="libreria-logo" class="logo-sidebar"><a class="sidebar-text" href="">La tua libreria</a></li>
+                </ul>
+                <!-- playlist section -->
+                <div class="sidebar-playlist">
+                    <h4>Playlist</h4>
+                    <div id="create-playlist">
+                        <a href="" class="create-playlist-text"><i class="fa-solid fa-square-plus"></i> Crea Playlist</a>
+                    </div>
+                    <ul>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                        <li class="playlist-name"><a href="#">Nome Playlist</a></li>
+                    </ul>
+                </div>
+
+                <div class="user-section">
+                    <a id="download" href="#"><img id="dowload-logo" src="img/download.svg" alt="dowload-icon"> Install app</a>
+                    <hr class="sidebar-hr">
+                    <a id="user" href="#"><img class="circle-user" id="user-logo" src="img/profile.svg" alt="profile-icon"> John Doe</a>
+                </div>
+            </div>
+            <!-- main section -->
             <main>
+                <!-- feature section top-screen -->
                 <div class="type-list d-flex justify-center">
                     <!-- <ul class="d-flex justify-center">
                         <li><a class="a-feature green-down-border" href="#">In Evidenza</a></li>
@@ -41,8 +77,10 @@
                 </div>
                 <!-- recently played section -->
                 <div class="song-section">
+                    <!-- title -->
                     <h3>Recently played</h3>
                     <div class="d-flex flex-wrap gap-30">
+                        <!-- first card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i> <img class="song-img" src="img/metal_lifting.jpg" alt=""></a>
@@ -52,6 +90,7 @@
                                 <p class="text-center song-description">Subtitle</p>
                             </div>
                         </div>
+                        <!-- second card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/stranger.jpeg" alt=""> </a>
@@ -61,6 +100,7 @@
                                 <p class="text-center song-description">Kyle Dixon & Michael Stein</p>
                             </div>
                         </div>
+                        <!-- third card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/aquietplace.jpeg" alt=""></a>
@@ -70,6 +110,7 @@
                                 <p class="text-center song-description">Subtitle</p>
                             </div>
                         </div>
+                        <!-- fourth card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i> <img class="song-img" src="img/split.jpeg" alt=""></a>
@@ -79,6 +120,7 @@
                                 <p class="text-center song-description">Subtitle</p>
                             </div>
                         </div>
+                        <!-- fifth card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/cure.jpeg" alt=""></a>
@@ -88,6 +130,7 @@
                                 <p class="text-center song-description">Subtitle</p>
                             </div>
                         </div>
+                        <!-- sixth card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/sinister.jpeg" alt=""></a>
@@ -101,8 +144,11 @@
                 </div>
                 <!-- Creato per jhon doe section -->
                 <div class="song-section">
+                    <!-- title -->
                     <h3>Creato per John Doe</h3>
+                    <!-- description -->
                     <p class="song-description">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <!-- radar card -->
                     <div class="d-flex flex-wrap gap-30">
                         <div class="song-card">
                             <div class="card-img">
@@ -112,6 +158,7 @@
                                 <h4 class="text-center">Release Radar</h4>
                             </div>
                         </div>
+                        <!-- daily mix card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/mixdaily.jpeg" alt=""></a>
@@ -124,9 +171,12 @@
                 </div>
                 <!-- artisti piu popolari section -->
                 <div class="song-section">
+                    <!-- title -->
                     <h3>Artisti più popolari</h3>
+                    <!-- description -->
                     <p class="song-description">Più ascolti, più accurati saranno i suggerimenti.</p>
                     <div class="d-flex gap-30">
+                        <!-- lana del rey card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img circle-img" src="img/youg.jpeg" alt=""></a>
@@ -135,6 +185,7 @@
                                 <h4 class="text-center">Lana Del Rey</h4>
                             </div>
                         </div>
+                        <!-- ludovico einaudi card -->
                         <div class="song-card">
                             <div class="card-img">
                                 <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img circle-img" src="img/einaudi.jpeg" alt=""></a>

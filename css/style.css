@@ -97,6 +97,111 @@ img{
     background-color: var(--color-sidebar);
 }
 
+#logo{
+    width: 90%;
+    padding: 20px;
+}
+
+.sidebar-element{
+    margin-bottom: 10px;
+}
+
+.logo-sidebar{
+    width: 17%;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.sidebar-text{
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--color-gray-text);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* playlist section */
+.sidebar-playlist h4{
+    color: var(--color-white-text);
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 20px;
+}
+
+#create-playlist{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.create-playlist-text{
+    color: var(--color-gray-text);
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+#create-playlist i{
+    font-size: 35px;
+    vertical-align: middle;
+    color: var(--color-white-text);
+}
+
+.playlist-name{
+    padding-left: 20px;
+    padding-top: 19px;
+}
+
+.playlist-name a{
+    font-weight: 700;
+    color: var(--color-gray-text);
+    text-decoration: none;
+}
+
+/* user section */
+#dowload-logo{
+    margin-left: 20px;
+    width: 10%;
+    vertical-align: middle;
+}
+
+#user-logo{
+    margin-left: 20px;
+    width: 13%;
+    vertical-align: middle;
+}
+.user-section{
+    margin-top: 80%;
+}
+
+.user-section a{
+    color: var(--color-gray-text);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.user-section a img{
+    margin-right: 10px;
+}
+
+#download{
+    font-size: 15px;
+}
+
+#user{
+    color: var(--color-white-text);
+}
+
+.sidebar-hr{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 80%;
+   margin-left: 10%;
+}
+
+.circle-user{
+    background-color: var(--color-gray-text);
+    border-radius: 50%;
+}
+
 /* main content with songs */
 main{
     color: var(--color-white-text);
