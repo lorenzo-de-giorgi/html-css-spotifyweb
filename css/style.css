@@ -39,6 +39,14 @@ img{
     display: flex;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -169,7 +177,10 @@ img{
     vertical-align: middle;
 }
 .user-section{
-    margin-top: 80%;
+}
+
+.bottom-sidebar{
+
 }
 
 .user-section a{
