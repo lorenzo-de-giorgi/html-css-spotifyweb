@@ -42,7 +42,6 @@ img{
 .justify-center{
     justify-content: center;
 }
-
 /* container */
 .wrapper{
     background-color: black;
@@ -133,4 +132,31 @@ main{
 #toolbar{
     background-color: var(--color-toolbar);
     height: 90px;
+}
+
+/* media query */
+
+/* from 992px to 1200px */
+@media screen and (max-width: 1190px){
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    .song-card{
+        width: calc(100% / 4 - 30px);
+    }
+}
+
+/* from 768px to 992px */
+@media screen and (max-width: 992px){
+    .song-card{
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+/* from 576 to 768 */
+@media screen and (max-width: 768px){
+    .song-card{
+        width: calc(100% / 1 - 30px);
+    }
 }
