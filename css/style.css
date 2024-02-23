@@ -22,6 +22,18 @@ ul{
     list-style: none;
 }
 
+img{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
 /* flex utility */
 .d-flex{
     display: flex;
@@ -79,8 +91,42 @@ main{
     font-size: 14px;
 }
 
-.green-down-border{
-    border-bottom: 5px solid var(--color-green-selector);
+.a-feature:hover{
+    color: var(--color-white-text);
+}
+
+/* Recently Played scetion */
+.song-section{
+    padding-top: 30px;
+}
+.song-section h3{
+    font-size: 22px;
+}
+
+.song-img{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.song-card{
+    width: calc(100% / 6 - 30px);
+}
+
+.song-card h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.song-description{
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--color-gray-text);
+    font-weight: 600;
+}
+
+.circle-image{
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /* end-screen toolbar */
