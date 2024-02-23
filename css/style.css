@@ -1,0 +1,90 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* colors */
+:root {
+	--color-sidebar: #000000;
+	--color-toolbar: #282828;
+	--color-white-text: #ffffff;
+	--color-background: #141922;
+	--color-gray-text: #717171;
+	--color-green-selector: #ADFF2F;
+    --color-header: rgba(0, 0, 0, 0.500);
+}
+
+/* utility */
+ul{
+    list-style: none;
+}
+
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* container */
+.wrapper{
+    background-color: black;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+.content{
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+
+/* fixed trasparent navbar */
+.header{
+    background-color: var(--color-header);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 200px;
+    width: calc(100% - 200px);
+}
+
+/* left-screen sidebar */
+#sidebar{
+    width: 200px;
+    background-color: var(--color-sidebar);
+}
+
+/* main content with songs */
+main{
+    color: var(--color-white-text);
+    width: calc(100% - 200px);
+    background-color: var(--color-background);
+    padding-top: 100px;
+    overflow-y: auto;
+    padding: 100px 20px 20px 20px;
+}
+
+.a-feature{
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 30px;
+    color: var(--color-gray-text);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.green-down-border{
+    border-bottom: 5px solid var(--color-green-selector);
+}
+
+/* end-screen toolbar */
+#toolbar{
+    background-color: var(--color-toolbar);
+    height: 90px;
+}
