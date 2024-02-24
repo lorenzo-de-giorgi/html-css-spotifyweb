@@ -17,6 +17,11 @@
     --color-header: rgba(0, 0, 0, 0.500);
 }
 
+/* text color */
+.gray-text{
+    color: var(--color-gray-text);
+}
+
 /* utility */
 ul{
     list-style: none;
@@ -307,6 +312,22 @@ main{
     height: 90px;
 }
 
+#player-img{
+    height: 50px;
+}
+
+.left-section{
+    width: calc(100% / 3);
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    height: 70px;
+}
+
+.left-section div{
+    margin-right: 40px;
+}
+
 /* media query */
 
 /* from 992px to 1200px */
@@ -317,6 +338,10 @@ main{
 
     .song-card{
         width: calc(100% / 4 - 30px);
+    }
+    .a-feature{
+        padding: 10px;
+        padding-top: 30px;
     }
 }
 
@@ -347,6 +372,7 @@ main{
     }
 
     #sidebar{
-       width: 200px;
+        width: 20%;
+        background-repeat: no-repeat;
     }
 }
