@@ -90,7 +90,7 @@
                         <!-- first card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i> <img class="song-img" src="img/metal_lifting.jpg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i> <img class="song-img" src="img/metal_lifting.jpg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Heavy Metal</h4>
@@ -100,7 +100,7 @@
                         <!-- second card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/stranger.jpeg" alt=""> </a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/stranger.jpeg" alt=""> </a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h4>
@@ -110,7 +110,7 @@
                         <!-- third card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/aquietplace.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/aquietplace.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">A quiet place</h4>
@@ -120,7 +120,7 @@
                         <!-- fourth card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i> <img class="song-img" src="img/split.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i> <img class="song-img" src="img/split.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Split</h4>
@@ -130,7 +130,7 @@
                         <!-- fifth card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/cure.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/cure.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">A cure for wellness</h4>
@@ -140,7 +140,7 @@
                         <!-- sixth card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/sinister.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/sinister.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Sinister</h4>
@@ -159,7 +159,7 @@
                     <div class="d-flex flex-wrap gap-30">
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/radar.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/radar.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Release Radar</h4>
@@ -168,7 +168,7 @@
                         <!-- daily mix card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img" src="img/mixdaily.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img" src="img/mixdaily.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Daily Mix 1</h4>
@@ -186,7 +186,7 @@
                         <!-- lana del rey card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img circle-img" src="img/youg.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img circle-img" src="img/youg.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Lana Del Rey</h4>
@@ -195,7 +195,7 @@
                         <!-- ludovico einaudi card -->
                         <div class="song-card">
                             <div class="card-img">
-                                <a href="#"><i class="fa-regular fa-circle-play d-flex"></i><img class="song-img circle-img" src="img/einaudi.jpeg" alt=""></a>
+                                <a href="#"><i class="fa-regular fa-circle-play d-flex play-hover"></i><img class="song-img circle-img" src="img/einaudi.jpeg" alt=""></a>
                             </div>
                             <div class="song-title">
                                 <h4 class="text-center">Ludovico Einaudi</h4>
@@ -207,15 +207,50 @@
         </div>
         <div id="toolbar">
             <!-- left section -->
-            <div class="left-section">
-                <div><img id="player-img" src="img/player_left.jpg" alt=""></div>
-                <div class="gray-text">
-                    <h5>Sinister</h5>
-                    <div><h6>Brano Nome</h6></div>
+            <div class="d-flex space-between">
+                <div class="left-section">
+                    <!-- song image -->
+                    <div><img id="player-img" src="img/player_left.jpg" alt=""></div>
+                    <!-- song -->
+                    <div class="gray-text">
+                        <h5>Sinister</h5>
+                        <div><h6>Brano Nome</h6></div>
+                    </div>
+                    <!-- icons -->
+                    <div class="gray-text">
+                        <i class="fa-regular fa-heart hover-footer"></i><br>
+                        <i class="fa-regular fa-folder hover-footer"></i>
+                    </div>
                 </div>
-                <div class="gray-text">
-                    <i class="fa-regular fa-heart hover-footer"></i><br>
-                    <i class="fa-regular fa-folder hover-footer"></i>
+                <!-- center section -->
+                <div class="center-section">
+                    <!-- player commads -->
+                    <div class="song-cmd d-flex justify-center align-center">
+                        <a class="cmd-s" href="#"><i class="fa-solid fa-shuffle"></i></a>
+                        <a class="cmd-s" href="#"><i class="fa-solid fa-backward-step"></i></a>
+                        <a class="cmd-s" href="#"><i class="fa-regular fa-circle-play"></i></a>
+                        <a class="cmd-s" href="#"><i class="fa-solid fa-forward-step"></i></a>
+                        <a class="cmd-s" href="#"><i class="fa-solid fa-rotate-right"></i></a>
+                    </div>
+                    <!-- song status bar -->
+                    <div class="song-bar d-flex justify-center align-center">
+                        <div class="time-song">00:25</div>
+                        <a class="s-bar">
+                            <div class="status"></div>
+                        </a>
+                        <div class="time-song">4:35</div>
+                    </div>
+                </div>
+                <!-- right section -->
+                <div class="right-section d-flex justify-center align-center">
+                    <!-- command -->
+                    <a class="right-icon" href="#"><i class="fa-solid fa-list-ul"></i></i></a>
+                    <a class="right-icon" href="#"><i class="fa-solid fa-desktop"></i></a>
+                    <a class="right-icon" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                    <!-- volume status -->
+                    <a class="volume">
+                        <div class="volume-status"></div>
+                    </a>
                 </div>
             </div>
         </div>
