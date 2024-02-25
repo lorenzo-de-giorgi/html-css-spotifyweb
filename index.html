@@ -205,52 +205,46 @@
                 </div>
             </main>
         </div>
-        <div id="toolbar">
+        <div id="toolbar" class="d-flex space-between">
             <!-- left section -->
-            <div class="d-flex space-between">
-                <div class="left-section">
-                    <!-- song image -->
-                    <div><img id="player-img" src="img/player_left.jpg" alt=""></div>
-                    <!-- song -->
-                    <div class="gray-text">
-                        <h5>Sinister</h5>
-                        <div><h6>Brano Nome</h6></div>
-                    </div>
-                    <!-- icons -->
-                    <div class="gray-text">
-                        <i class="fa-regular fa-heart hover-footer"></i><br>
-                        <i class="fa-regular fa-folder hover-footer"></i>
-                    </div>
+            <div class="d-flex align-center">
+                <div id="player-img">
+                    <img src="img/player_left.jpg" alt="">
                 </div>
-                <!-- center section -->
-                <div class="center-section">
-                    <!-- player commads -->
-                    <div class="song-cmd d-flex justify-center align-center">
-                        <a class="cmd-s" href="#"><i class="fa-solid fa-shuffle"></i></a>
-                        <a class="cmd-s" href="#"><i class="fa-solid fa-backward-step"></i></a>
-                        <a class="cmd-s" href="#"><i class="fa-regular fa-circle-play"></i></a>
-                        <a class="cmd-s" href="#"><i class="fa-solid fa-forward-step"></i></a>
-                        <a class="cmd-s" href="#"><i class="fa-solid fa-rotate-right"></i></a>
-                    </div>
-                    <!-- song status bar -->
-                    <div class="song-bar d-flex justify-center align-center">
-                        <div class="time-song">00:25</div>
-                        <a class="s-bar">
-                            <div class="status"></div>
-                        </a>
-                        <div class="time-song">4:35</div>
-                    </div>
+                <div id="song-name" >
+                    <h4 id="song-title">Sinister</h4><p>Brano Nome</p> 
                 </div>
-                <!-- right section -->
-                <div class="right-section d-flex justify-center align-center">
-                    <!-- command -->
-                    <a class="right-icon" href="#"><i class="fa-solid fa-list-ul"></i></i></a>
-                    <a class="right-icon" href="#"><i class="fa-solid fa-desktop"></i></a>
-                    <a class="right-icon" href="#"><i class="fa-solid fa-volume-high"></i></a>
-                    <!-- volume status -->
-                    <a class="volume">
+                <div id="toolbar-icon" class="d-flex">
+                    <div><i class="fa-regular fa-folder"></i></div>
+                    <div><i class="fa-regular fa-heart"></i></div>
+                </div>
+            </div>
+            <!-- center section -->
+            <div id="center-section">
+                <div id="song-cmd" class="d-flex space-between align-center">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="song-time d-flex align-center justify-center">
+                    <span>0:25</span>
+                    <div class="time-bar">
+                        <div class="time-rn"></div>
+                    </div>
+                    <span>4:35</span>
+                </div>
+            </div>
+            <!-- right section -->
+            <div id="right-section">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="volume d-flex align-center">
+                    <div class="volume-bar">
                         <div class="volume-status"></div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
