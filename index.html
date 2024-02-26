@@ -30,10 +30,10 @@
                         <img class="big-logo" src="img/logo.svg" alt="">
                         <img src="img/logo-small.svg" alt="" class="small-logo">
                     </div>
-                    <ul>
-                        <li class="sidebar-element"><img class="logo-sidebar" src="img/home.svg" alt="logo-home"><a class="sidebar-text" href="#">Home</a></li>
+                    <ul class="sidebar-icon">
+                        <li id="home" class="sidebar-element active"><img class="logo-sidebar" src="img/home.svg" alt="logo-home"><a class="sidebar-text" href="#">Home</a></li>
                         <li class="sidebar-element"><img class="logo-sidebar" src="img/search.svg" alt="search-logo"><a class="sidebar-text" href="">Cerca</a></li>
-                        <li class="sidebar-element"><img src="img/libreria.svg" alt="libreria-logo" class="logo-sidebar"><a class="sidebar-text" href="">La tua libreria</a></li>
+                        <li class="sidebar-element"><img class="logo-sidebar" src="img/libreria.svg" alt="libreria-logo" class="logo-sidebar"><a class="sidebar-text" href="">La tua libreria</a></li>
                     </ul>
                 
                     <!-- playlist section -->
@@ -42,7 +42,7 @@
                         <div id="create-playlist">
                             <a href="" class="create-playlist-text"><i class="fa-solid fa-square-plus"></i> Crea Playlist</a>
                         </div>
-                        <ul>
+                        <ul class="playlist-list">
                             <li class="playlist-name"><a href="#">Nome Playlist</a></li>
                             <li class="playlist-name"><a href="#">Nome Playlist</a></li>
                             <li class="playlist-name"><a href="#">Nome Playlist</a></li>
@@ -66,22 +66,16 @@
             <!-- main section -->
             <main>
                 <!-- feature section top-screen -->
-                <div class="type-list d-flex justify-center">
-                    <!-- <ul class="d-flex justify-center">
+                <nav class="type-list d-flex justify-center">
+                    <ul class="list-type d-flex justify-center flex-wrap">
                         <li><a class="a-feature green-down-border" href="#">In Evidenza</a></li>
                         <li><a class="a-feature" href="#">Podcast</a></li>
                         <li><a class="a-feature" href="#">Classifiche</a></li>
                         <li><a class="a-feature" href="#">Generi E Mood</a></li>
                         <li><a class="a-feature" href="#">Nuove Uscite</a></li>
                         <li><a class="a-feature" href="#">Scopri</a></li>
-                    </ul> -->
-                    <a href="" class="a-feature">In Evidenza</a>
-                    <a href="" class="a-feature">Podcast</a>
-                    <a href="" class="a-feature">Classifiche</a>
-                    <a href="" class="a-feature">Generi E Mood</a>
-                    <a href="" class="a-feature">Nuove Uscite</a>
-                    <a href="" class="a-feature">Scopri</a>
-                </div>
+                    </ul>
+                </nav>
                 <!-- recently played section -->
                 <div class="song-section">
                     <!-- title -->
@@ -224,7 +218,7 @@
                 <div id="song-cmd" class="d-flex space-between align-center">
                     <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-regular fa-circle-play play-toolbar"></i>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-rotate-right"></i>
                 </div>
