@@ -79,13 +79,13 @@ img{
 
 /* fixed trasparent navbar */
 .header{
-    z-index: 4000;
     background-color: var(--color-header);
     height: 80px;
     position: fixed;
     top: 0;
     left: 200px;
     width: calc(100% - 200px);
+    z-index: 10;
 }
 
 .header-btn{
@@ -100,6 +100,7 @@ img{
 }
 
 .upgrade-btn{
+    z-index: 10;
     padding: 20px;
     padding-right: 40px;
 }
@@ -490,6 +491,18 @@ main{
 .song-time:hover .time-rn{
     background-color: var(--color-green-selector);
 }
+
+.song-time:hover .time-rn::after{
+    content: "";
+    position: absolute;
+    top: -3px;
+    right: 0;
+    border-radius: 50%;
+    background-color: var(--color-white-text);
+    width: 10px;
+    height: 10px;
+}
+
 /* volume section */
 #right-section{
     align-items: center;
@@ -620,3 +633,9 @@ main{
         width: 450%;
     }
 }
+
+@media screen and (max-height: 200px) {
+    .header {
+      display: none;
+    }
+  }
